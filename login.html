@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Sports Buddy</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="scripts/firebase-config.js" defer></script>
+  <script type="module" src="scripts/auth.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <h2>Welcome!</h2>
+      
+      <p>New here? <a href="register.html">Register now</a></p>
+    </div>
+
+    <div class="right-panel">
+      <h2>Login to your account</h2>
+      <form id="loginForm">
+        <label>Email</label>
+        <input type="email" id="emailLogin" placeholder="Email" required>
+
+        <label>Password</label>
+        <input type="password" id="passwordLogin" placeholder="Password" required>
+
+        <div class="checkboxes">
+          <label><input type="checkbox"> Keep me logged in</label>
+        </div>
+
+        <button type="submit">Log in now</button>
+
+        <div class="forgot-password">
+          <a href="#">Forgot your password?</a>
+        </div>
+
+        <div class="or">Or sign in with</div>
+        <div class="social-buttons">
+          <a href="https://www.google.com" target="_blank">
+                <button type="button">
+                  <strong>Google</strong>
+                </button>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <button type="button">
+                  <strong>Facebook</strong></button>
+            </a>         
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
