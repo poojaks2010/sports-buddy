@@ -4,9 +4,6 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/fireba
 import { getAuth } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
   // Your web app's Firebase configuration
   const firebaseConfig = {
     apiKey: "AIzaSyA2uosoPQ-6PoOCZNzHuQ3E6CGDkTpoN9A",

@@ -22,18 +22,6 @@ onAuthStateChanged(auth, (user) => {
   if (!user) window.location.href = "login.html";
 });
 
-// onAuthStateChanged(auth, (user) => {
-//   if (!user) {
-//     window.location.href = "login.html";
-//   } else {
-//     const emailDisplay = document.getElementById("userEmail");
-//     if (emailDisplay) {
-//       emailDisplay.textContent = user.email;
-//     }
-//   }
-// });
-
-
 // Add new event
 addEventBtn.addEventListener("click", async () => {
   const name = eventNameInput.value.trim();

@@ -426,6 +426,54 @@ body {
   }
 }
 
+.reset-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.reset-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.reset-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reset-container input[type="email"] {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.reset-container button {
+  padding: 12px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.reset-container button:hover {
+  background-color: black;
+}
+
+#resetMsg {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
 
 
 
